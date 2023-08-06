@@ -25,7 +25,7 @@ public class Compiling {
         // Generates and prints the commands for each package
         for (String packageName : packageList) {
             String tarAndCdCommand = ("\ntar -xvf " + packageName + ".tar.xz\n" + "cd " + packageName);
-            System.out.println(tarAndCdCommand + "\n");
+            System.out.println(tarAndCdCommand);
         }
 
         // Closes the scanner
